@@ -23,6 +23,7 @@ import {
 type Route = {
   href: string;
   label: string;
+  title?: string;
   active: boolean;
   submenu?: Route[];
   separator?: boolean;

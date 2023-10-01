@@ -1,9 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import * as React from "react";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 import { Separator } from "@/components/ui/separator";
+
+import SmallLogo from "@/assets/apple-touch-icon.png";
 
 import { cn } from "@/lib/utils";
 
@@ -81,7 +84,12 @@ export function MainNav({
 
   return (
     <NavigationMenu className={cn(className)} {...props}>
-      <NavigationMenuList>
+      <Image
+        className="order-1 w-fit mx-auto visible lg:hidden absolute top-8"
+        src={SmallLogo}
+        alt="Chemicah logo"
+      />
+      <NavigationMenuList className="flex-col lg:flex-row items-start lg:items-center space-x-0 lg:space-x-2 space-y-3 lg:space-y-0">
         {routes.map((route) => (
           <NavigationMenuItem key={route.href}>
             {route.submenu ? (
@@ -98,7 +106,7 @@ export function MainNav({
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="!mx-auto right-auto">
                   <ul className="grid gap-1 p-2 md:w-[400px] lg:w-[300px]">
-                    {route.submenu.map((submenuItem) => (
+                    {route?.submenu.map((submenuItem) => (
                       <>
                         <Link
                           key={submenuItem.href}
@@ -134,7 +142,7 @@ export function MainNav({
                   className={
                     navigationMenuTriggerStyle() +
                     cn(
-                      "transition-colors !text-lg bg-transparent hover:text-[#fff] hover:bg-[#80a316] rounded-full !py-1 h-full",
+                      "transition-colors !text-base bg-transparent hover:text-[#fff] hover:bg-[#80a316] !rounded-full !py-1 h-full",
                       route.active
                         ? "text-[#80a316]"
                         : "text-muted-foreground dark:text-white"

@@ -33,7 +33,7 @@ export default function Navbar() {
               className="hidden sm:block text-base font-bold transition ease-in-out bg-primary duration-300 rounded-full py-3 px-6 lg:px-8 text-[#fff] hover:bg-transparent hover:outline hover:outline-2 hover:outline-primary hover:text-primary"
               href="/contact"
             >
-              Let's connect
+              Let&#39;s connect
             </Link>
             <ThemeToggle />
             <Button

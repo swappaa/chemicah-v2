@@ -25,7 +25,7 @@ export const Banner = () => {
                 className="w-full max-w-[200px] flex justify-center text-base font-medium transition ease-in-out bg-primary duration-300 rounded-full py-4 px-8 text-[#fff] hover:bg-transparent hover:outline hover:outline-2 hover:outline-primary hover:text-primary"
                 href="/contact"
               >
-                Let's get started
+                Let&#39;s get started
               </Link>
               <Link
                 className="w-fit max-w-md group relative text-base font-medium transition ease-in-out duration-300 rounded-full py-4 px-2 text-primary hover:text-primary"
@@ -39,7 +39,7 @@ export const Banner = () => {
                     d="m2.5 66.25 9.75-3.75c3-1 6.5-.75 9.25.5l5.75 3.5c3 1.75 7 2 10.25.25l7-3.75c3-1.5 7-1.5 10 0l5.75 3.25c3 1.75 6.75 1.75 10 .25l8.5-4.25c2.75-1.5 6.25-1.25 9.25 0l6.75 3.5"
                     fill="none"
                     stroke="#139fcb"
-                    stroke-width="5.5"
+                    strokeWidth="5.5"
                     transform="translate(8.83854 -49.878)"
                   ></path>
                 </svg>

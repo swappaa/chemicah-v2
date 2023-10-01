@@ -20,11 +20,19 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
+type Route = {
+  href: string;
+  label: string;
+  active: boolean;
+  submenu?: Route[];
+  separator?: boolean;
+};
+
 export function MainNav({ className }: React.HTMLAttributes<HTMLElement>) {
   const pathname = usePathname();
   const params = useParams();
 
-  const routes = [
+  const routes: Route[] = [
     {
       href: `/`,
       label: "Home",

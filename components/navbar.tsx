@@ -20,7 +20,6 @@ export default function Navbar() {
             src={Logo}
             alt="Chemicah logo"
           />
-
           <MainNav
             className={`shadow-lg lg:shadow-none flex-col-reverse items-center justify-center bg-gradient-to-r from-gray-100 to-gray-300 dark:from-[#080706] dark:to-[#080706] lg:from-transparent lg:to-transparent lg:dark:from-transparent lg:dark:to-transparent h-full left-0 lg:!bg-transparent py-6 lg:py-0 top-0 fixed lg:pt-0 order-3 lg:order-2 basis-full max-w-full lg:basis-0 lg:relative z-50 duration-300 transition-transform w-60 lg:w-full overflow-y-auto lg:translate-x-0 ${
               isToggleSidebarOpen

@@ -20,10 +20,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-export function MainNav({
-  className,
-  ...props
-}: React.HTMLAttributes<HTMLElement>) {
+export function MainNav({ className }: React.HTMLAttributes<HTMLElement>) {
   const pathname = usePathname();
   const params = useParams();
 
@@ -83,7 +80,7 @@ export function MainNav({
   ];
 
   return (
-    <NavigationMenu className={cn(className)} {...props}>
+    <NavigationMenu className={cn(className)}>
       <Image
         className="order-1 w-fit mx-auto visible lg:hidden absolute top-8"
         src={SmallLogo}

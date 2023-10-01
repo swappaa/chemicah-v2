@@ -25,7 +25,7 @@ export const Banner = () => {
                 className="w-full max-w-[200px] flex justify-center text-base font-medium transition ease-in-out bg-primary duration-300 rounded-full py-4 px-8 text-[#fff] hover:bg-transparent hover:outline hover:outline-2 hover:outline-primary hover:text-primary"
                 href="/contact"
               >
-                Let&#39;s get started
+                Let’s get started
               </Link>
               <Link
                 className="w-fit max-w-md group relative text-base font-medium transition ease-in-out duration-300 rounded-full py-4 px-2 text-primary hover:text-primary"

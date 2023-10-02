@@ -1,7 +1,9 @@
-import { LucideProps, User } from "lucide-react";
+import { LucideProps, User, Facebook, Linkedin } from "lucide-react";
 
 export const Icons = {
   user: User,
+  facebook: Facebook,
+  linkedin: Linkedin,
   logo: (props: LucideProps) => (
     <svg {...props} viewBox="0 0 872 253" fill="currentColor">
       <path

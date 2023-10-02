@@ -148,7 +148,7 @@ export function MainNav({ className }: React.HTMLAttributes<HTMLElement>) {
                   className={
                     navigationMenuTriggerStyle() +
                     cn(
-                      "transition-colors !text-base bg-transparent hover:text-[#fff] hover:bg-[#80a316] !rounded-full !py-1 h-full",
+                      "transition-colors !text-lg md:!text-base bg-transparent hover:text-[#fff] hover:bg-[#80a316] !rounded-full !py-1 h-full",
                       route.active
                         ? "text-[#80a316]"
                         : "text-muted-foreground dark:text-white"

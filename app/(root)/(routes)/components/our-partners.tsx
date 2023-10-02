@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons";
 export const OurPartners = () => {
   return (
     <section className="container mt-3">
-      <div className="py-8 md:py-24 lg:py-32">
+      <div className="pt-8 md:pt-24 lg:pt-32">
         <div className="max-w-3xl w-full mx-auto text-center space-y-4">
           <p className="py-2 px-4 bg-gradient-to-r from-[#80a316] to-[#109fcf] inline-block rounded-t-full rounded-r-full text-sm font-medium text-white">
             Our partners

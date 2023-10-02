@@ -7,7 +7,7 @@ export const Banner = () => {
   return (
     <section className="container mt-3">
       <div className="overflow-hidden dark:shadow-inner shadow-2xl rounded-3xl relative bg-hero-pattern bg-cover">
-        <div className="max-w-7xl px-8 mx-auto py-8 md:py-24 lg:py-32 md:flex items-center gap-8 text-center md:text-left space-y-8">
+        <div className="max-w-7xl px-8 mx-auto py-8 md:py-24 lg:py-32 md:flex items-center gap-8 text-center md:text-left space-y-4">
           <div className="md:w-1/2 space-y-4 md:space-y-6">
             <p className="py-2 px-4 bg-gradient-to-r from-[#80a316] to-[#109fcf] inline-block rounded-t-full rounded-r-full text-sm font-medium text-white">
               Welcome

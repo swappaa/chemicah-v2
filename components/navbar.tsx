@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { MainNav } from "@/components/main-nav";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { Icons } from "@/components/icons";
 import Logo from "@/assets/chemicah-logo.png";
 
 export default function Navbar() {
@@ -29,10 +30,12 @@ export default function Navbar() {
           />
           <div className="flex items-center space-x-2 md:space-x-4 order-2 lg:order-3">
             <Link
-              className="hidden sm:block text-base font-bold transition ease-in-out bg-primary duration-300 rounded-full py-3 px-6 lg:px-8 text-[#fff] hover:bg-transparent hover:outline hover:outline-2 hover:outline-primary hover:text-primary"
+              className="group right-6 w-12 h-12 sm:w-auto sm:h-auto bottom-10 sm:bottom-0 fixed z-10 flex items-center justify-center sm:relative text-base font-bold transition ease-in-out bg-primary duration-300 rounded-full py-3 sm:px-6 lg:px-8 text-[#fff] sm:hover:bg-transparent sm:hover:outline sm:hover:outline-2 sm:hover:outline-primary sm:hover:text-primary"
               href="/contact"
             >
-              Let’s connect
+              <span className="hidden sm:block">Let’s connect</span>
+              <Icons.messageSquare className=" visible sm:hidden h-6 lg:h-10 w-full mx-auto stroke-white" />
+              <span className="hidden w-full h-full group-hover:inline-flex sm:group-hover:!hidden group-hover:animate-ping absolute  rounded-full bg-sky-400 opacity-75"></span>
             </Link>
             <ThemeToggle />
             <Button

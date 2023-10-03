@@ -9,6 +9,7 @@ import {
   Lightbulb,
   Rocket,
   ListTodo,
+  MessageSquare,
 } from "lucide-react";
 
 export const Icons = {
@@ -21,6 +22,7 @@ export const Icons = {
   lightbulb: Lightbulb,
   rocket: Rocket,
   list: ListTodo,
+  messageSquare: MessageSquare,
   logo: (props: LucideProps) => (
     <svg {...props} viewBox="0 0 872 253" fill="currentColor">
       <path

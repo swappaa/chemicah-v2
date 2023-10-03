@@ -59,6 +59,10 @@
 }
 
 @layer utilities {
+  .dark .rfm-overlay::before,
+  .dark .rfm-overlay::after {
+    background: linear-gradient(to right, #1a1716, transparent);
+  }
   .stroke-dasharray-100 {
     stroke-dasharray: 100;
   }

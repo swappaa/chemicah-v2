@@ -14,7 +14,7 @@ export const Banner = () => {
             </p>
             <h1 className="scroll-m-20 text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight mt-4">
               Let’s make your product a{" "}
-              <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block">
+              <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block before:rounded-t-full before:rounded-r-full px-2">
                 <span className="relative text-white">success</span>
               </span>
             </h1>

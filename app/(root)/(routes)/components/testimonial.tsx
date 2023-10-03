@@ -23,7 +23,7 @@ export const Testimonial = () => {
               <ul className="space-y-8">
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
-                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10" />
+                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10 rotate-6" />
                     <blockquote className="text-slate-700 dark:text-slate-300">
                       <p className="text-base">
                         We excell at converting eye-catching designs into
@@ -44,7 +44,7 @@ export const Testimonial = () => {
                 </li>
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
-                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10" />
+                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10 rotate-6" />
                     <blockquote className="text-slate-700 dark:text-slate-300">
                       <p className="text-base">
                         Working with Crator was a game-changer. Their creative
@@ -65,7 +65,7 @@ export const Testimonial = () => {
                 </li>
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
-                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10" />
+                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10 rotate-6" />
                     <blockquote className="text-slate-700 dark:text-slate-300">
                       <p className="text-base">
                         Crators innovative design solutions played a key role in
@@ -88,7 +88,7 @@ export const Testimonial = () => {
               <ul className="space-y-8">
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
-                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10" />
+                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10 rotate-6" />
                     <blockquote className="text-slate-700 dark:text-slate-300">
                       <p className="text-base">
                         We excell at converting eye-catching designs into
@@ -108,7 +108,7 @@ export const Testimonial = () => {
                 </li>
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
-                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10" />
+                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10 rotate-6" />
                     <blockquote className="text-slate-700 dark:text-slate-300">
                       <p className="text-base">
                         Working with Crator was a game-changer. Their creative
@@ -128,7 +128,7 @@ export const Testimonial = () => {
                 </li>
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
-                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10" />
+                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10 rotate-6" />
                     <blockquote className="text-slate-700 dark:text-slate-300">
                       <p className="text-base">
                         Crators innovative design solutions played a key role in
@@ -151,7 +151,7 @@ export const Testimonial = () => {
               <ul className="space-y-8">
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
-                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10" />
+                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10 rotate-6" />
                     <blockquote className="text-slate-700 dark:text-slate-300">
                       <p className="text-base">
                         We excell at converting eye-catching designs into
@@ -174,7 +174,7 @@ export const Testimonial = () => {
                 </li>
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
-                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10" />
+                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10 rotate-6" />
                     <blockquote className="text-slate-700 dark:text-slate-300">
                       <p className="text-base">
                         Working with Crator was a game-changer. Their creative
@@ -195,7 +195,7 @@ export const Testimonial = () => {
                 </li>
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
-                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10" />
+                    <Icons.quote className="absolute -top-4 left-10 h-10 w-10 lg:h-10 rotate-6" />
                     <blockquote className="text-slate-700 dark:text-slate-300">
                       <p className="text-base">
                         Crators innovative design solutions played a key role in

@@ -27,7 +27,7 @@ export const OurProcess = () => {
                     <Icons.lightbulb className="h-6 lg:h-10 mx-auto stroke-white" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="scroll-m-20 text-xl font-bold tracking-tight">
+                    <h4 className="scroll-m-20 text-2xl font-bold tracking-tight">
                       1. Collect Ideas
                     </h4>
                     <p className="text-xl">
@@ -43,7 +43,7 @@ export const OurProcess = () => {
                     <Icons.laso className="h-6 lg:h-10 mx-auto stroke-white" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="scroll-m-20 text-xl font-bold tracking-tight">
+                    <h4 className="scroll-m-20 text-2xl font-bold tracking-tight">
                       2. Design Concept
                     </h4>
                     <p className="text-xl">
@@ -68,7 +68,7 @@ export const OurProcess = () => {
                     <Icons.list className="h-6 lg:h-10 mx-auto stroke-white" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="scroll-m-20 text-xl font-bold tracking-tight">
+                    <h4 className="scroll-m-20 text-2xl font-bold tracking-tight">
                       3. Check
                     </h4>
                     <p className="text-xl">
@@ -84,7 +84,7 @@ export const OurProcess = () => {
                     <Icons.rocket className="h-6 lg:h-10 mx-auto stroke-white" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="scroll-m-20 text-xl font-bold tracking-tight">
+                    <h4 className="scroll-m-20 text-2xl font-bold tracking-tight">
                       4. Finalize Product
                     </h4>
                     <p className="text-xl">

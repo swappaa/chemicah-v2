@@ -6,6 +6,9 @@ import {
   Layout,
   LassoSelect,
   Gauge,
+  Lightbulb,
+  Rocket,
+  ListTodo,
 } from "lucide-react";
 
 export const Icons = {
@@ -15,6 +18,9 @@ export const Icons = {
   layout: Layout,
   laso: LassoSelect,
   gauge: Gauge,
+  lightbulb: Lightbulb,
+  rocket: Rocket,
+  list: ListTodo,
   logo: (props: LucideProps) => (
     <svg {...props} viewBox="0 0 872 253" fill="currentColor">
       <path

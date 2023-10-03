@@ -29,7 +29,7 @@ export const WhatWeDo = () => {
             <div className="grid md:grid-cols-2 gap-4 md:gap-6 space-y-8 md:space-y-0">
               <div className="space-y-4 md:space-y-8">
                 <div>
-                  <div className="px-10 py-8 rounded-3xl bg-accent/50 shadow-xl space-y-2 space-x-6 max-w-lg mx-auto md:flex">
+                  <div className="px-6 md:px-10 py-8 rounded-3xl bg-accent/50 shadow-xl space-y-2 md:space-y-0 md:space-x-6 max-w-lg mx-auto md:flex">
                     <div className="w-1/5 mx-auto md:mx-0">
                       <div className="w-12 h-12 flex items-center justify-center bg-accent/50 p-2 rounded-2xl border mx-auto md:mx-0">
                         <Icons.laso className="h-6 lg:h-10 mx-auto" />
@@ -47,7 +47,7 @@ export const WhatWeDo = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="px-10 py-8 rounded-3xl bg-accent/50 shadow-xl space-y-2 space-x-6 max-w-lg mx-auto md:flex">
+                  <div className="px-6 md:px-10 py-8 rounded-3xl bg-accent/50 shadow-xl space-y-2 md:space-y-0 md:space-x-6 max-w-lg md:flex">
                     <div className="w-1/5 mx-auto md:mx-0">
                       <div className="w-12 h-12 flex items-center justify-center bg-accent/50 p-2 rounded-2xl border mx-auto md:mx-0">
                         <Icons.layout className="h-6 lg:h-10 mx-auto" />
@@ -65,7 +65,7 @@ export const WhatWeDo = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="px-10 py-8 rounded-3xl bg-accent/50 shadow-xl space-y-2 space-x-6 max-w-lg mx-auto md:flex">
+                  <div className="px-6 md:px-10 py-8 rounded-3xl bg-accent/50 shadow-xl space-y-2 md:space-y-0 md:space-x-6 max-w-lg mx-auto md:flex">
                     <div className="w-1/5 mx-auto md:mx-0">
                       <div className="w-12 h-12 flex items-center justify-center bg-accent/50 p-2 rounded-2xl border mx-auto md:mx-0">
                         <Icons.gauge className="h-6 lg:h-10 mx-auto" />

@@ -17,54 +17,56 @@ export const OurWork = () => {
             Check out some of our recent & current work
           </h2>
         </div>
-        <Marquee
-          gradient={true}
-          pauseOnHover={true}
-          className="space-x-4 overflow-hidden"
-        >
-          <div className="flex items-center justify-center space-x-4 h-40 md:h-56 lg:h-70 2xl:h-96">
-            <div className="h-full">
-              <Image
-                className="rounded-3xl h-full w-full object-cover"
-                src={HeroHome}
-                alt="hero banner"
-              />
-              <span className="bottom-12 left-2 md:left-6 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block px-3 before:rounded-t-full before:rounded-r-full">
-                <span className="relative text-white">Venti</span>
-              </span>
+        <div className="scale-[102%]">
+          <Marquee
+            gradient={true}
+            pauseOnHover={true}
+            className="space-x-4 overflow-hidden"
+          >
+            <div className="flex items-center justify-center space-x-4 h-40 md:h-56 lg:h-70 2xl:h-96">
+              <div className="h-full">
+                <Image
+                  className="rounded-3xl h-full w-full object-cover"
+                  src={HeroHome}
+                  alt="hero banner"
+                />
+                <span className="bottom-12 left-2 md:left-6 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block px-3 before:rounded-t-full before:rounded-r-full">
+                  <span className="relative text-white">Venti</span>
+                </span>
+              </div>
+              <div className="h-full">
+                <Image
+                  className="rounded-3xl h-full w-full object-cover"
+                  src={HeroHome}
+                  alt="hero banner"
+                />
+                <span className="bottom-12 left-2 md:left-6 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block px-3 before:rounded-t-full before:rounded-r-full">
+                  <span className="relative text-white">HabitualSkin</span>
+                </span>
+              </div>
+              <div className="h-full">
+                <Image
+                  className="rounded-3xl h-full w-full object-cover"
+                  src={HeroHome}
+                  alt="hero banner"
+                />
+                <span className="bottom-12 left-2 md:left-6 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block px-3 before:rounded-t-full before:rounded-r-full">
+                  <span className="relative text-white">Rude Coffee</span>
+                </span>
+              </div>
+              <div className="h-full">
+                <Image
+                  className="rounded-3xl h-full w-full object-cover"
+                  src={HeroHome}
+                  alt="hero banner"
+                />
+                <span className="bottom-12 left-2 md:left-6 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block px-3 before:rounded-t-full before:rounded-r-full">
+                  <span className="relative text-white">Universal Father</span>
+                </span>
+              </div>
             </div>
-            <div className="h-full">
-              <Image
-                className="rounded-3xl h-full w-full object-cover"
-                src={HeroHome}
-                alt="hero banner"
-              />
-              <span className="bottom-12 left-2 md:left-6 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block px-3 before:rounded-t-full before:rounded-r-full">
-                <span className="relative text-white">HabitualSkin</span>
-              </span>
-            </div>
-            <div className="h-full">
-              <Image
-                className="rounded-3xl h-full w-full object-cover"
-                src={HeroHome}
-                alt="hero banner"
-              />
-              <span className="bottom-12 left-2 md:left-6 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block px-3 before:rounded-t-full before:rounded-r-full">
-                <span className="relative text-white">Rude Coffee</span>
-              </span>
-            </div>
-            <div className="h-full">
-              <Image
-                className="rounded-3xl h-full w-full object-cover"
-                src={HeroHome}
-                alt="hero banner"
-              />
-              <span className="bottom-12 left-2 md:left-6 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block px-3 before:rounded-t-full before:rounded-r-full">
-                <span className="relative text-white">Universal Father</span>
-              </span>
-            </div>
-          </div>
-        </Marquee>
+          </Marquee>
+        </div>
       </div>
     </section>
   );

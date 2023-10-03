@@ -10,6 +10,7 @@ import {
   Rocket,
   ListTodo,
   MessageSquare,
+  Quote,
 } from "lucide-react";
 
 export const Icons = {
@@ -23,6 +24,7 @@ export const Icons = {
   rocket: Rocket,
   list: ListTodo,
   messageSquare: MessageSquare,
+  quote: Quote,
   logo: (props: LucideProps) => (
     <svg {...props} viewBox="0 0 872 253" fill="currentColor">
       <path

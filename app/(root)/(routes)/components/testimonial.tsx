@@ -1,9 +1,10 @@
+"use client";
+
 import { Icons } from "@/components/icons";
 
 export const Testimonial = () => {
   return (
-    <section>
-      <div className="absolute h-5/6 lg:h-208 w-full top-0 left-0  rounded-b-3xl lg:rounded-b-6xl -z-10 hidden"></div>
+    <section className="overflow-x-hidden">
       <div className="container">
         <div className="py-8 md:py-24">
           <div className="max-w-3xl w-full mx-auto text-center space-y-4">
@@ -18,7 +19,7 @@ export const Testimonial = () => {
               transformative power of our creative solutions.
             </p>
           </div>
-          <div className="max-w-screen-xl w-full mx-auto mt-10 md:mt-16">
+          <div className="max-w-screen-xl w-full mx-auto mt-10 md:mt-16 relative overflow-x-hidden">
             <div className="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-h-[33rem] overflow-hidden p-4 md:p-10">
               <ul className="space-y-8">
                 <li className="text-sm leading-6">
@@ -215,6 +216,14 @@ export const Testimonial = () => {
                   </figure>
                 </li>
               </ul>
+            </div>
+            <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-white pt-32 pb-8 pointer-events-none dark:from-[#0c0a09] absolute">
+              <button
+                type="button"
+                className="relative focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-full flex items-center bg-primary hover:bg-primary/80 pointer-events-auto"
+              >
+                Show more...
+              </button>
             </div>
           </div>
         </div>

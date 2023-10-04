@@ -84,7 +84,7 @@ export default function Navbar() {
             <h3 className="mb-2 text-xl font-semibold text-gray-900 dark:text-white">
               Follow us on social media
             </h3>
-            <p className="mb-4 text-gray-500 dark:text-gray-400 text-lg font-medium">
+            <p className="mb-4 text-gray-500 dark:text-gray-400 text-lg">
               Stay connected and updated on our latest projects.
             </p>
             <ul className="flex flex-wrap gap-2 justify-center sm:justify-start">

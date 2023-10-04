@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+const plugin = require("tailwindcss/plugin");
+
 const config: Config = {
   darkMode: ["class"],
   content: [
@@ -75,6 +77,24 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    plugin(function ({ addComponents }: any) {
+      const swiper = {
+        ".mySwiper": {
+          ".swiper-pagination-bullet": {
+            backgroundColor: "#149fc9",
+            padding: "0.4rem",
+          },
+          ".swiper-pagination-bullet.swiper-pagination-bullet-active": {
+            padding: "0.4rem",
+            borderRadius: "1rem",
+            width: "25px",
+          },
+        },
+      };
+      addComponents([swiper]);
+    }),
+    require("tailwindcss-animate"),
+  ],
 };
 export default config;

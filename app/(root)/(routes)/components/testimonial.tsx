@@ -1,10 +1,36 @@
 "use client";
 
+import { useEffect, useState, useRef } from "react";
 import { Icons } from "@/components/icons";
 
 export const Testimonial = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const gridRef = useRef<HTMLDivElement>(null);
+  const [buttonOpacity, setButtonOpacity] = useState(1);
+
+  useEffect(() => {
+    const handleScroll = (): void => {
+      if (isExpanded && gridRef.current) {
+        const sectionTop = gridRef.current.getBoundingClientRect().top;
+
+        if (sectionTop < window.innerHeight / 2) {
+          setButtonOpacity(1);
+        } else {
+          setButtonOpacity(0);
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the listener when the component is unmounted
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isExpanded]);
+
   return (
-    <section className="overflow-x-hidden">
+    <section>
       <div className="container">
         <div className="py-8 md:py-24">
           <div className="max-w-3xl w-full mx-auto text-center space-y-4">
@@ -19,8 +45,13 @@ export const Testimonial = () => {
               transformative power of our creative solutions.
             </p>
           </div>
-          <div className="max-w-screen-xl w-full mx-auto mt-10 md:mt-16 relative overflow-x-hidden">
-            <div className="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-h-[33rem] overflow-hidden p-4 md:p-10">
+          <div className="max-w-screen-xl w-full mx-auto mt-10 md:mt-16 relative">
+            <div
+              ref={gridRef}
+              className={`grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 p-4 md:p-10 ${
+                isExpanded ? "" : "max-h-[33rem] overflow-hidden"
+              }`}
+            >
               <ul className="space-y-8">
                 <li className="text-sm leading-6">
                   <figure className="relative flex flex-col rounded-3xl bg-accent/50 shadow-xl p-8">
@@ -217,12 +248,22 @@ export const Testimonial = () => {
                 </li>
               </ul>
             </div>
-            <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-white pt-32 pb-8 pointer-events-none dark:from-[#0c0a09] absolute">
+            <div
+              style={{ opacity: buttonOpacity }}
+              className={`btn-elem opacity-0 inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-white pt-32 pb-8 pointer-events-none dark:from-[#0c0a09] ${
+                isExpanded
+                  ? "sticky -mt-52 transition-opacity duration-300 opacity-100"
+                  : "opacity-100 absolute"
+              }`}
+            >
               <button
+                onClick={() => setIsExpanded(!isExpanded)}
                 type="button"
-                className="relative focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-full flex items-center bg-primary hover:bg-primary/80 pointer-events-auto"
+                className={`relative focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-full flex items-center bg-primary hover:bg-primary/80 pointer-events-auto ${
+                  isExpanded ? "" : "transition-transform translate-y-4"
+                }`}
               >
-                Show more...
+                {isExpanded ? "Okay, I get the point" : "Show more..."}
               </button>
             </div>
           </div>

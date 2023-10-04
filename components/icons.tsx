@@ -369,7 +369,7 @@ export const Icons = {
       <path
         d="M 30 73 L 100 18 V 10 Z"
         className="fill-accent/50"
-        stroke-width="0"
+        strokeWidth="0"
       ></path>
     </svg>
   ),

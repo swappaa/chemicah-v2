@@ -13,10 +13,7 @@ export const Banner = () => {
               Welcome
             </p>
             <h1 className="scroll-m-20 text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight mt-4">
-              Let’s make your product a{" "}
-              <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#149fc9] relative inline-block before:rounded-t-full before:rounded-r-full px-2">
-                <span className="relative text-white">success</span>
-              </span>
+              Let’s make your product a success
             </h1>
             <p className="text-xl [&:not(:first-child)]:mt-4 font-medium">
               Crator is your partner in digital innovation. We fuse strategic

@@ -1,5 +1,6 @@
 import Separator from "@/components/separator";
 import { Banner } from "./components/banner";
+import { Cta } from "./components/cta";
 import { OurPartners } from "./components/our-partners";
 import { OurProcess } from "./components/our-process";
 import { OurWork } from "./components/our-work";
@@ -17,6 +18,8 @@ export default function HomePage() {
       <OurProcess />
       <OurWork />
       <Testimonial />
+      <Separator className="h-16 -scale-x-100 transform scale-y-100" />
+      <Cta />
     </>
   );
 }
